@@ -95,7 +95,7 @@
 use hyper::header::{HeaderMap, HeaderValue};
 use hyper::http::header::{InvalidHeaderValue, ToStrError};
 use hyper::http::uri::InvalidUri;
-use hyper::{Body, Client, Error, Request, Response, Uri};
+use hyper::{Body, client::Client, Error, Request, Response, Uri};
 use lazy_static::lazy_static;
 use std::net::IpAddr;
 use std::str::FromStr;
